@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="043400a3-5b72-4d3f-93dc-c932040bf814" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/changeme.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lambda.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/python3.iml" afterPath="$PROJECT_DIR$/.idea/python3.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/textminer.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,6 +30,7 @@
       <list>
         <option value="$PROJECT_DIR$/changeme.py" />
         <option value="$PROJECT_DIR$/lambda.py" />
+        <option value="$PROJECT_DIR$/textminer.py" />
       </list>
     </option>
   </component>
@@ -87,7 +85,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.lambda">
+  <component name="RunManager" selected="Python.textminer">
     <configuration name="changeme" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,16 +140,36 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="3">
+    <configuration name="textminer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python3" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/textminer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.iterator1" />
       <item index="1" class="java.lang.String" itemvalue="Python.changeme" />
       <item index="2" class="java.lang.String" itemvalue="Python.lambda" />
+      <item index="3" class="java.lang.String" itemvalue="Python.textminer" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.lambda" />
-        <item index="1" class="java.lang.String" itemvalue="Python.changeme" />
-        <item index="2" class="java.lang.String" itemvalue="Python.iterator1" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.textminer" />
+        <item index="1" class="java.lang.String" itemvalue="Python.lambda" />
+        <item index="2" class="java.lang.String" itemvalue="Python.changeme" />
+        <item index="3" class="java.lang.String" itemvalue="Python.iterator1" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516324332239</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lambda example">
+      <created>1516338050099</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1516338050099</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -206,7 +231,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="renamed to fib1" />
-    <option name="LAST_COMMIT_MESSAGE" value="renamed to fib1" />
+    <MESSAGE value="lambda example" />
+    <option name="LAST_COMMIT_MESSAGE" value="lambda example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -233,6 +259,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lambda.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/changeme.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -241,10 +275,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lambda.py">
+    <entry file="file://$PROJECT_DIR$/counter1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textminer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
